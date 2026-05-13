@@ -49,3 +49,6 @@ desktop.ini
 # ── Logs ──────────────────────────────────────────────────
 *.log
 logs/
+
+# ── Internal / private notes ──────────────────────────────
+INTERNAL_NOTES.md
