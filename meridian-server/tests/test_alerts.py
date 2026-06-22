@@ -79,7 +79,7 @@ def test_budget_rule_custom_threshold():
     assert budget_rule(spans, threshold_usd=0.004) is not None
 
 
-# ── latency_spike_rule ──────────────────────────────────────────────────────
+# latency_spike_rule 
 
 def test_latency_spike_no_spike():
     spans = [{"name": "langgraph.node", "latency_ms": 500.0, "attributes": {}}]
