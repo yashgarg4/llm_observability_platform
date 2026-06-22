@@ -47,7 +47,7 @@ def test_loop_rule_detects_correct_node():
     assert "a" in result["message"]
 
 
-# ── budget_rule ─────────────────────────────────────────────────────────────
+# budget_rule 
 
 def test_budget_rule_under_threshold():
     spans = [_llm_span(0.01) for _ in range(5)]   # total = 0.05
