@@ -14,7 +14,7 @@ def _llm_span(cost: float, latency_ms: float = 100.0) -> dict:
     }
 
 
-# ── loop_rule ───────────────────────────────────────────────────────────────
+# loop_rule
 
 def test_loop_rule_no_loop_exactly_five():
     spans = [_node_span("a") for _ in range(5)]
