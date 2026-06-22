@@ -2,7 +2,7 @@ import os
 import time
 import pytest
 
-os.environ.setdefault("DB_PATH", ":memory:")   # will be set before app import
+os.environ.setdefault("DB_PATH", ":memory:") 
 
 from httpx import AsyncClient, ASGITransport
 
